@@ -17,8 +17,6 @@ If all settings are correct and Composer is running then a list of modules will 
 - **Set Button**
 - **Set Pin Value**
 
-## Presets
-
 ## History
 
 ### Version 1.0.0

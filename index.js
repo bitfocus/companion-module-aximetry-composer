@@ -57,16 +57,16 @@ class aximmetry extends InstanceBase {
 
 		this.config = config
 		this.nodeList = []
-
+		
+		this.updateVariables()
 		this.getModuleList()
 		this.updateActions()
-		this.updateVariables()
 	}
 
 	async configUpdated(config) {
 		console.log('config updated')
 		this.config = config
-
+		
 		this.getModuleList()
 		this.updateActions()
 		this.updateVariables()
