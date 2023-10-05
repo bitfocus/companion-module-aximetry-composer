@@ -57,7 +57,7 @@ class aximmetry extends InstanceBase {
 
 		this.config = config
 		this.nodeList = []
-		
+
 		this.updateVariables()
 		this.getModuleList()
 		this.updateActions()
@@ -66,7 +66,7 @@ class aximmetry extends InstanceBase {
 	async configUpdated(config) {
 		console.log('config updated')
 		this.config = config
-		
+
 		this.getModuleList()
 		this.updateActions()
 		this.updateVariables()
@@ -85,7 +85,6 @@ class aximmetry extends InstanceBase {
 
 		var bodyXML = `<?xml version="1.0" encoding="utf-8"?>` + body
 		var result = ''
-		// <action type="ComposerSetPinValueAction" Module="Root\\HEADLINE" Pin="Title" Value="bedtime 4" />`
 
 		const options = {
 			hostname: this.config.ipAddress,
